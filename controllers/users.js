@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
             users : users,
         } );
     } catch (err) {
-        console.log(error);
+        console.log(err);
         res.redirect('/')
     }
 });
@@ -22,7 +22,7 @@ router.get('/:userId', async (req, res) => {
             users : users, 
         });
     } catch (err) {
-        console.log(error);
+        console.log(err);
         res.redirect('/')
     }
 });
@@ -35,7 +35,7 @@ router.get('/:userId/blog/:blogsId', async (req, res) => {
             users: users, 
             blogs: blogs,
         });
-    } catch (err) {
+    } catch (error) {
         console.log(error);
         res.redirect('/')
     }
