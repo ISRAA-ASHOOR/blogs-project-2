@@ -6,11 +6,11 @@ IBlog platform is a user-friendly hub where individuals can effortlessly create,
 
 ## Getting started
 
-![alt text](</assets/IBlog-image.png>) 
+![IBlog Home page](</assets/IBlog-image.png>) 
 
 ## IBlog 
 
-![alt text](</assets/Blogs.png>) 
+![Blogs page](</assets/Blogs.png>) 
 
 ## Live app
 
