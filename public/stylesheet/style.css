@@ -4,11 +4,9 @@ body {
   font-family: 'Playwrite GB S', sans-serif;
   display: flex;
   flex-direction: column;
-  height: 100dvh;
-  width: 100vw;
   background-color: rgb(243, 239, 230);
   color: #1f1f1f;
-  margin: 0;
+  margin: 15px;
   line-height: 1.6;
 }
 
@@ -290,12 +288,11 @@ button:hover,
 
 .new-container,
 .edit-container {
-  min-height: calc(100dvh - 120px);
+  min-height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
-  margin: 250px;
 }
 
 .new-form-container,
@@ -321,7 +318,6 @@ button:hover,
 .edit-form-container form {
   display: flex;
   flex-direction: column;
-  gap: 18px;
 }
 
 .new-form-container label,
